@@ -1,7 +1,7 @@
 
   {% comment %}
     This bit will be rather huge. The achievments will be given depending on the amount
-    of posts available and tags used. I will try to divide everything by category to 
+    of posts available and tags used. I will try to divide everything by category to
     make things easier.
   {% endcomment %}
 
@@ -64,7 +64,7 @@
   {% elsif blog > 365 %}
   <img src="{{site.url}}/assets/achievements/blog/Blog-365.svg" title="365 blog posts written. WOW! That's one blog post per day!" alt="365 Blog Posts">
   {% endif %}
-  
+
   {% assign books = site.categories.book | size %}
   {% if books >= 1 and books < 5 %}
   <img src="{{site.url}}/assets/achievements/books/Book-1.svg" title="1 book read. Good start!" alt="Read 1 book">
