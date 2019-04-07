@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zeebear.github.io/100DaysOfCodeAndMore" # the base hostname & protocol for your site, e.g. http://example.com
 author: zeebear # This should be your name
-avatar: avatar.png # This should be the file name of your avatar located in assets/images
+avatar: zeebear.png # This should be the file name of your avatar located in assets/images
 twitter_username:  100daysof
 github_username:   FabioRosado/100daysof
 devto_username:    100daysof
