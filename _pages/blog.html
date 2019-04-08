@@ -8,12 +8,12 @@ permalink: /blog
     {% for post in site.posts %}
       {% if post.categories contains "blog" %}
           <div class="card">
-            <a href="{{post.url}}">
+            <a href="{{ site.baseurl }}{{post.url}}">
               <div class="card-image">
                 {% if post.image %}
                   <img src="{{post.image}}" alt="{{post.title}}">
                 {% else %}
-                  <img src="{{site.url}}/assets/images/jason-leung-705076-unsplash.jpg">
+                  <img src="{{site.url}}{{ site.baseurl }}/assets/images/jason-leung-705076-unsplash.jpg">
                 {% endif %}
               </div>
               <div class="project-header">
