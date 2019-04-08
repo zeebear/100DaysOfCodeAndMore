@@ -8,10 +8,10 @@
   </div>
   {% include right_sidebar.html %}
   <div class="bottom-menu is-hidden-tablet">
-      <a href="{{site.url}}">
+      <a href="{{site.url}}{{ site.baseurl }}">
         <i class="fas fa-home"></i> HOME
       </a>
-      <a href="{{site.url}}/about">
+      <a href="{{site.url}}{{ site.baseurl }}/about">
         <i class="fas fa-user"></i> ABOUT ME
       </a>
       <div class="dropdown is-up">
@@ -26,16 +26,16 @@
           <div class="dropdown-menu" id="dropdown-menu7" role="menu">
             <div class="dropdown-content">
               <div class="dropdown-item">
-                <a href="{{site.url}}/timeline.html" class="dropdown-item">
+                <a href="{{site.url}}{{ site.baseurl }}/timeline.html" class="dropdown-item">
                   <i class="far fa-calendar-alt"></i> TIMELINE
                 </a>
-                <a href="{{site.url}}/blog.html" class="dropdown-item">
+                <a href="{{site.url}}{{ site.baseurl }}/blog.html" class="dropdown-item">
                   <i class="far fa-file-alt"></i> BLOG
                 </a>
-                <a href="{{site.url}}/projects.html" class="dropdown-item">
+                <a href="{{site.url}}{{ site.baseurl }}/projects.html" class="dropdown-item">
                   <i class="far fa-clipboard"></i> PROJECTS
                 </a>
-                <a href="{{site.url}}/books.html" class="dropdown-item">
+                <a href="{{site.url}}{{ site.baseurl }}/books.html" class="dropdown-item">
                   <i class="fas fa-book"></i> BOOKS
                 </a>
               </div>
@@ -43,9 +43,9 @@
           </div>
         </div>
   </div>
-  
+
 </body>
-<script src="{{site.url}}/assets/scripts/main.js"></script>
+<script src="{{site.url}}{{ site.baseurl }}/assets/scripts/main.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.min.js"></script>
@@ -58,8 +58,8 @@
   var calData = {% assign counter = 0 %}{
   {% for post in site.categories['log'] %}{% capture day %}{{ post.date | date: '%s' }}{% endcapture %}{% capture prevday %}{{ post.previous.date | date: '%s' }}{% endcapture %}{% assign counter = counter | plus: 1 %}{% if day != prevday %}"{{ post.date | date: '%s' }}": {{ counter }}{% assign counter = 0 %}{% if forloop.last == false %},{% endif %}
   {% endif %}{% endfor %}};
-  
-  
+
+
   var responsiveCal = function( options ) {
     var now = new Date();
       options.start = now.setMonth(now.getMonth());
@@ -72,7 +72,7 @@
       }
       cal = new CalHeatMap();
       cal.init( options );
-  
+
   }
   caloptions = {
     itemSelector: "#cal-heatmap",
@@ -99,18 +99,18 @@
       position: "top"
     }
   };
-  
-  
+
+
   // run first time, put in load if your scripts are in footer
   responsiveCal( caloptions );
-  
+
   $(window).resize(function() {
       if(this.resizeTO) clearTimeout(this.resizeTO);
       this.resizeTO = setTimeout(function() {
           $(this).trigger('resizeEnd');
       }, 500);
   });
-  
+
   //resize on resizeEnd function
   $(window).bind('resizeEnd', function() {
      responsiveCal( cal.options );
