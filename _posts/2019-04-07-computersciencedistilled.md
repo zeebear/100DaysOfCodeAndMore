@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Computer Science Distilled -- Learn the Art of Solving Computational Problems"
+title:  "Computer Science Distilled"
 subtitle: Wladston Ferreira Filho
 date:   2019-04-07 23:50:22 -0300
 categories: book
