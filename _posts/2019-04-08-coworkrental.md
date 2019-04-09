@@ -1,3 +1,4 @@
+---
 layout: post
 title:  Cowork Rental
 subtitle: AirBnB for your coworking space!
@@ -6,3 +7,4 @@ categories: project
 link: https://co-work-rental.herokuapp.com/
 image: # An image of the project located in assets/images
 tags:  HTML CSS Heroku Cloudinary MapBox Algolia Github
+---
