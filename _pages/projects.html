@@ -7,7 +7,7 @@ permalink: /projects
     {% for post in site.posts %}
       {% if post.categories contains "project" %}
           <div class="card">
-            <a href="{{post.url}}">
+            <a href="{{ site.baseurl }}{{post.url}}">
               <div class="card-image">
                 {% if post.image %}
                   <img src="{{post.image}}" alt="{{post.title}}">
