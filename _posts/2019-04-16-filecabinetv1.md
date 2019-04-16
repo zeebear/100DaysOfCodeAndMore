@@ -6,7 +6,7 @@ date:   2019-04-16 17:32:42 -0300
 categories: project
 link: https://heavyoldfilecabinet.herokuapp.com/
 image: likeevernote.jpg
-tags:  HTML CSS Ruby Rails Heroku Haml
+tags:  Rails Heroku Haml
 ---
 
 From Yonathan Ayenew's [8 Beautiful Ruby on Rails Apps in 30 Days & TDD - Immersive](https://www.udemy.com/8-beautiful-ruby-on-rails-apps-in-30-days/) -- Project 1. 
