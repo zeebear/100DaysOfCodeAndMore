@@ -5,7 +5,7 @@ subtitle: Very basic Instagram-style blog
 date:   2019-04-18 23:45:42 -0300
 categories: project
 link: https://insta-foto.herokuapp.com/
-image: /assets/images/instagram-logo.png
+image: instagram-logo.png
 tags:  
     - Rails
     - Heroku

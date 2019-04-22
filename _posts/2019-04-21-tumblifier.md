@@ -5,7 +5,7 @@ subtitle: Very basic tumbler-style blog
 date:   2019-04-16 17:32:42 -0300
 categories: project
 link: https://tumblifi.herokuapp.com/
-image: /assets/images/tumblr-logo.png
+image: tumblr-logo.png
 tags:  
     - Rails
     - Heroku
