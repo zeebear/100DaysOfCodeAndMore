@@ -11,6 +11,7 @@ tags:
     - Heroku
     - Haml
 ---
+Image found [here](https://www.lifehacker.com.au/2013/03/ive-been-using-it-wrong-heres-why-evernote-is-actually-amazing/) -- if I shouldn't be using it, please let me know!
 
 From Yonathan Ayenew's [8 Beautiful Ruby on Rails Apps in 30 Days & TDD - Immersive](https://www.udemy.com/8-beautiful-ruby-on-rails-apps-in-30-days/) -- Project 1. 
 
