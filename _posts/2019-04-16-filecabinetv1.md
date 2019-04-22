@@ -17,6 +17,6 @@ From Yonathan Ayenew's [8 Beautiful Ruby on Rails Apps in 30 Days & TDD - Immers
 It's supposed to be an "Evernote Lookalike" -- you can log in and see notes (plain text only) that you've stored. There are so many ways I could spice this up, but that's for later…
 
 ### What I learned from this:
-A good, if somewhat slow, revision of how to make a Ruby app. And Haml! That was totally new to me, and seems fast enough to pick up (we'll see how I feel about that when I have to do it all from scratch!)
+A good (if somewhat slow for me) revision of how to make a Ruby app. And Haml! That was totally new to me, and seems fast enough to pick up (we'll see how I feel about that when I have to do it all from scratch!)
 
 ### [On Heroku](https://heavyoldfilecabinet.herokuapp.com/)
