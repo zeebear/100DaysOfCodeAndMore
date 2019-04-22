@@ -5,7 +5,7 @@ subtitle: Very basic text file storage
 date:   2019-04-16 17:32:42 -0300
 categories: project
 link: https://heavyoldfilecabinet.herokuapp.com/
-image: ../assets/images/likeevernote.jpg
+image: /assets/images/likeevernote.jpg
 tags:  
     - Rails
     - Heroku
